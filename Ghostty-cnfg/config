@@ -1,0 +1,44 @@
+#Defining title for terminal
+title = "Ghostty 👻"
+
+#Defining theme 
+theme = Dracula+
+
+#Defining font 
+font-family = JetBrainsMono Nerd Font
+font-size = 17
+
+#Defining cursor style
+cursor-style = bar
+cursor-style-blink = true
+
+#Defining clipboard setting
+clipboard-read = allow
+clipboard-write = allow
+copy-on-select = clipboard
+clipboard-paste-protection = false
+
+#Defining the exit popup
+confirm-close-surface = false
+
+#Defining space between 
+window-padding-x = 8
+window-padding-y = 5
+window-padding-balance = true
+
+# Window size
+window-width = 90
+window-height = 25
+
+#shell integration
+shell-integration = none
+
+
+# Split creation
+keybind = alt+r=new_split:right
+keybind = alt+d=new_split:down
+
+# Split navigation
+keybind = ctrl+tab=goto_split:next
+keybind = ctrl+shift+tab=goto_split:previous
+
